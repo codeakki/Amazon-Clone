@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box
+}
+body{
+    background-color:#bbb
+}
+
+.slideshow-container {
+    max-width: 100%;
+    max-height: 500px;
+    position: relative;
+    margin: auto;
+    background-image: url('https://images.unsplash.com/photo-1428189923803-e9801d464d76?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=871&q=80')
+}
+
+.mySlides {
+    display: none;
+}
+
+.mySlides img {
+    width: 80%;
+    height: 400px;
+    margin-left: 132px;
+}
+
+.items img {
+    width: 171px;
+    height: 213px;
+}
+h3{
+    display: flex;
+    justify-content: center;
+    width:171px;
+    text-align: center;
+    font-family: 'calibri';
+    font-weight: normal;
+    font-size: 18px;
+}
+.products span{
+    display: inline-block;
+    padding: 14px 14px 0px;
+   
+}
+div.products{
+    
+    background-color: rgb(245, 250, 248);
+    max-width: 90%;
+    margin-left:71px;
+    margin-top: 31px;
+    margin-bottom: 36px;
+}
+div.products:hover{
+    background-color: rgb(182, 169, 169);
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+h2{
+    margin-left: 10px;
+    margin-top:10px;
+    font-family: 'cambria';
+}
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: rgb(22, 20, 20);
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+    background-color: #717171;
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+footer{
+    background-color:rgb(4, 3, 27);
+    
+}
+h4{
+    color:white;
+    text-align:center;
+    font-family: 'cambria'
+}
+
+
+.socialmedia img{
+    width: 46px;
+    height: 34px;
+    margin:13px;
+}
+.socialmedia p{
+    display:inline-block;
+    
+    
+    
+}

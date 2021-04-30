@@ -1,32 +1,203 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Amazon</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="css/nav.css" rel="stylesheet">
-    </head>
-    <body>
-        <nav>
-            <div class="upperhalf">
-                <img src="https://pngimg.com/uploads/amazon/amazon_PNG25.png" class="logo">
-                <input type="text" placeholder="Search here" class="search">
-                <button class="searchbtn"><img src="http://assets.stickpng.com/images/585e4ad1cb11b227491c3391.png"></button>
-                
-                <button class="cart"><img src="https://pngimg.com/uploads/shopping_cart/shopping_cart_PNG42.png"></button>
+
+<head>
+    <title>Amazon</title>
+    <link rel = "icon" href = 
+"https://cdn0.iconfinder.com/data/icons/most-usable-logos/120/Amazon-512.png" 
+        type = "image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/nav.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <div class="upperhalf">
+            <img src="https://pngimg.com/uploads/amazon/amazon_PNG25.png" class="logo">
+            <input type="text" placeholder="Search here" class="search">
+            <button class="searchbtn"><img
+                    src="https://www.transparentpng.com/thumb/search-button/RwuGa6-button-search-png.png"></button>
+
+            <button class="cart"><img src="https://pngimg.com/uploads/shopping_cart/shopping_cart_PNG42.png"></button>
+        </div>
+        <div class="lowerhalf">
+            <ul>
+                <li><a href="#" class="navbtn">All</a></li>
+                <li><a href="#" class="navbtn">Fresh</a></li>
+                <li><a href="#" class="navbtn">Customer Service</a></li>
+                <li><a href="#" class="navbtn">Amazon Pay</a></li>
+                <li><a href="#" class="navbtn">Best Sellers</a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <main>
+
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+
+                <img
+                    src="https://images.unsplash.com/photo-1601924994987-69e26d50dc26?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80">
+
             </div>
-            <div class="lowerhalf">
-                <ul>
-                    <li><a href="#" class="navbtn">All</a></li>
-                    <li><a href="#" class="navbtn">Fresh</a></li>
-                    <li><a href="#" class="navbtn">Customer Service</a></li>
-                    <li><a href="#" class="navbtn">Amazon Pay</a></li>
-                    <li><a href="#" class="navbtn">Best Sellers</a></li>
-                </ul>
+
+            <div class="mySlides fade">
+
+                <img
+                    src="https://images.unsplash.com/photo-1555529669-e69e7aa0ba9a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80">
+
             </div>
-        </nav>
+
+            <div class="mySlides fade">
+
+                <img
+                    src="https://images.unsplash.com/photo-1534452203293-494d7ddbf7e0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=752&q=80">
+
+            </div>
+
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+
+
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+
+        <div class="list">
+
+        </div>
+
+
+        <div class="products">
+            <h2>Beauty Products</h2>
+            <span class="items">
+                <img
+                    src="https://images.unsplash.com/photo-1519735777090-ec97162dc266?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=815&q=80">
+                <h3>Product 1<br>100$</h3>
+            </span>
+            <span class="items">
+                <img
+                    src="https://images.unsplash.com/photo-1585386931415-464367473a01?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=375&q=80">
+                <h3>Product 1<br>100$</h3>
+            </span>
+            <span class="items">
+                <img
+                    src="https://images.unsplash.com/photo-1587303876752-91efb6315dcc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=375&q=80">
+                <h3>Product 1<br>100$</h3>
+            </span>
+            <span class="items">
+                <img
+                    src="https://images.unsplash.com/photo-1589782182703-2aaa69037b5b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=667&q=80">
+                <h3>Product 1<br>100$</h3>
+            </span>
+            <span class="items">
+                <img
+                    src="https://images.unsplash.com/photo-1592842232655-e5d345cbc2d0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80">
+                <h3>Product 1<br>100$</h3>
+            </span>
+            <span class="items">
+                <img
+                    src="https://images.unsplash.com/photo-1587655819818-22c9752d66d1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=375&q=80">
+                <h3>Product 1<br>100$</h3>
+            </span>
+
+        </div>
+
+        <div class="products">
+            <h2>Sports Products</h2>
+            <span class="items">
+                <img
+                    src="https://images.unsplash.com/photo-1587385789097-0197a7fbd179?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=483&q=80">
+                <h3>Product 1<br>100$</h3>
+            </span>
+            <span class="items">
+                <img
+                    src="https://images.unsplash.com/photo-1593341646782-e0b495cff86d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80">
+                <h3>Product 1<br>100$</h3>
+            </span>
+            <span class="items">
+                <img
+                    src="https://images.unsplash.com/photo-1515523110800-9415d13b84a8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=334&q=80">
+                <h3>Product 1<br>100$</h3>
+            </span>
+            <span class="items">
+                <img
+                    src="https://images.unsplash.com/photo-1575361204480-aadea25e6e68?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=751&q=80">
+                <h3>Product 1<br>100$</h3>
+            </span>
+            <span class="items">
+                <img
+                    src="https://images.unsplash.com/photo-1517340650606-17091f8e86ed?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80">
+                <h3>Product 1<br>100$</h3>
+            </span>
+            <span class="items">
+                <img
+                    src="https://images.unsplash.com/photo-1529900748604-07564a03e7a6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80">
+                <h3>Product 1<br>100$</h3>
+            </span>
+
+        </div>
+        <div class="products">
+            <h2>Mobile Phones</h2>
+            <span class="items">
+                <img
+                    src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80">
+                <h3>Product 1<br>100$</h3>
+            </span>
+            <span class="items">
+                <img
+                    src="https://images.unsplash.com/photo-1480694313141-fce5e697ee25?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80">
+                <h3>Product 1<br>100$</h3>
+            </span>
+            <span class="items">
+                <img
+                    src="https://images.unsplash.com/photo-1535303311164-664fc9ec6532?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=334&q=80">
+                <h3>Product 1<br>100$</h3>
+            </span>
+            <span class="items">
+                <img
+                    src="https://images.unsplash.com/photo-1579869847514-7c1a19d2d2ad?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=891&q=80">
+                <h3>Product 1<br>100$</h3>
+            </span>
+            <span class="items">
+                <img
+                    src="https://images.unsplash.com/photo-1551817958-d9d86fb29431?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=334&q=80">
+                <h3>Product 1<br>100$</h3>
+            </span>
+            <span class="items">
+                <img
+                    src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80">
+                <h3>Product 1<br>100$</h3>
+            </span>
+
+        </div>
+    </main>
+
+
+    <footer>
         
         
-    
-    </body>
+        <div class="socialmedia">
+            
+            
+            <p class="copy"><h4>Copyright &copy; 2021 from Rohan27s</h4></p>
+        </div>
+
+
+        
+    </footer>
+
+
+    <script src="../JS/main.js"></script>
+</body>
+
 </html>

@@ -6,10 +6,12 @@
 nav {
     background-color: rgb(4, 3, 27);
     margin: auto;
+    position:relative
+    
 }
 
 .logo {
-    width: 113px;
+    width: 149px;
     padding: 6px 22px;
 }
 
@@ -24,6 +26,8 @@ nav {
 .upperhalf {
     display: flex;
     align-items: center;
+    height:61px;
+    
 }
 
 .searchbtn {
@@ -56,6 +60,7 @@ nav {
 }
 .lowerhalf{
     display: flex;
+    
     align-items: center;
     background-color:#232f3e;
 }
